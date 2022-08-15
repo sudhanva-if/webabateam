@@ -1,0 +1,505 @@
+@media only screen and (min-width:992px) {
+.fbox ul {display: block !important; }
+}
+
+@media only screen and (max-width: 1280px) {
+    /*.notice {font-size: 10px;}
+    footer nav ul li a, footer h5 {font-size: 12px;}
+    footer nav ul li ul li a, footer .socialMedia ul li a, .pptnc li a {font-size: 11px;}
+    footer h5 {margin-bottom: 8px;}
+    footer nav .subscribe .subsForm .field input[type="email"] {height: 24px;}
+    .submit input[type="submit"] {height: 28px;}
+    footer nav .subscribe .subsForm .submit input[type="submit"] {padding: 4px 20px; font-size: 11px;}
+    footer .socialMedia ul li i {width: 20px; height: 20px;}
+    .copyright .container {padding: 8px 0;}
+    .mCauseList ul li a {font-size: 11px; padding: 10px 8px;}
+    .ethicalFundraising .impact .info .box span.no {font-size: 20px;}
+    .ethicalFundraising .impact .info .box span.txt {font-size: 12px;}
+
+    .listNgos ul li .icon img {height: 60px;}
+    .listNgos ul li {font-size: 14px;} 
+
+    .galleryPics .txt, .galleryVideos .txt {font-size: 12px; line-height: 16px;}*/
+    .hcauseslide .owl-nav > div.owl-prev {
+    left: 0px;
+    }
+    .hcauseslide .owl-nav > div.owl-next {
+        right: 0px;
+    }
+}
+@media only screen and (max-width: 991px) {
+.toplinks{overflow: inherit;}
+    input, select, textarea, email, password {font-size: 14px;}
+    body {font-size: 14px;}
+    header .logo {max-width: 110px; padding:2px 5px;    position: unset;}
+    header .logo img {width: 100%;}
+    
+    .bleft{width: 370px; padding: 30px;} 
+    .btitle, .heading1, .whatsnew h3, .idiabox h3{font-size: 30px;}
+    .indiaDonates .info p, .ethicalsec { font-size: 16px;}
+    .sec {padding:30px 0;}
+    .iocnsec{padding:0px;}
+    .logos{min-height: 110px;}
+    .owl-carousel .owl-item .logos img{max-height: 100px;}
+    .footer1{font-size: 14px;} 
+
+
+
+.topmenu{margin-top: 0;}
+.mobilelink{display: block;}
+.desktoplink{display: none;}
+
+.headertop{min-height: 60px;}
+.donatebtn {margin-left: 0;} 
+.toplinks{ margin:15px 30px 0px 0px; background:#fff; }
+.toplinks .donatebtn a{background:#f57324; color:#fff; border-radius: 25px;}
+.toplinks > ul > li {border-left:0;}
+
+
+
+.minus_icon:after {   content: "-" !important;}
+.plusicon {display: block; position: absolute; z-index: 101; right: 0; top: 5px; cursor: pointer;}
+.plusicon:after {content: "+"; display: inline-block; width: 30px; height: 30px; text-align: center; line-height: 30px; font-size: 24px; color: #222;}
+
+.navicon{display: block; float: right; cursor: pointer; position: absolute; top:18px; right:20px; z-index: 99; width:22px; height: 30px; padding-top: 15px;}
+.navicon span{ width:20px; height:2px; background:#3c7800; position: relative; display: block;border-radius: 2px;}
+.navicon span:before, .navicon span:after{content:""; width:20px; height:2px; background:#3c7800; display:block; position:absolute; left: 0; border-radius: 2px;}
+.sticky .navicon {top: 7px;}
+.sticky .navicon span:before, .sticky .navicon span:after, .sticky .navicon span, header:hover .navicon span, header:hover .navicon span:before, header:hover .navicon span:after, body:not(.home) .navicon span, body:not(.home) .navicon span:before, body:not(.home) .navicon span:after{ background:#3c7800; }
+
+
+header .navicon span:after { width:100%;  }
+header .navicon span:before{top: -7px;   }
+header .navicon span:after{bottom: -7px; }
+header .navicon.active span:before, header .navicon.active span:after { width:20px; top: -7px; background:#2c2928; }
+header .navicon.active{position: fixed; top: 15px; right: 15px;}
+header .navicon.active span{ background: none;}
+header .navicon.active span:before{ transform: rotate(-48deg);}
+header .navicon.active span:after{ transform: rotate(45deg); bottom: 6px;}
+
+.desktopshow{display: none;}
+.mobilelink, .mobileshow{display: block;}
+.ddclick{position: absolute; right: 5px; top: 4px; width: 32px; height:42px; z-index: 999; cursor: pointer;color:#405464;}
+.ddclick:before {content: ""; background:url(../images/plus.png) center center no-repeat; display: inline-block; width: 100%; text-align: center; line-height: 42px; font-size: 30px; height: 42px; width: 30px;}
+.ddclick.active:before{content:"";  background:url(../images/minus.png) center center no-repeat;}
+.sub-menu{list-style: none; background:#f1f1f1;} 
+.sub-menu li a {padding: 5px;}
+
+.topmenu { box-shadow: 0 0 3px #ccc; position: fixed;top: 0;right: 0; z-index: 98; width: 100%; padding:10px 0px 30px; height: 100%; overflow-x: hidden;background: #fff /*url(../images/logo.png) center top no-repeat; background-size: 30px*/; overflow: auto; -webkit-font-smoothing: antialiased;  transform-origin: 0% 0%;  transform: translate(100%, 0);  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);}
+.topmenu.showmenu{ transform: translate(0%, 0); }
+header .topmenu.showmenu > ul > li > a{color:#2c2928;} 
+.topmenu > ul > li{width: 100%; position: relative; border-top: 1px solid #ddd;} 
+.topmenu > ul > li:hover > a{border: none!important;} 
+.topmenu > ul > li > a {padding:13px 15px;font-size: 15px;line-height: 24px; border: none!important}
+.topmenu > ul > li > ul {width: 100%;  background:#f1f1f1; position: static;  padding: 0; border: none;opacity: 1; visibility: visible; display: none;} 
+.topmenu > ul > li > ul > li{width: 100%; min-height:auto; padding: 0; border-top: 1px solid #ddd;}
+.topmenu > ul > li > ul > li:first-child, .topmenu > ul > li:first-child{border: none;}
+.topmenu > ul > li > ul > li a{font-size: 13px; padding:15px 25px;}
+.topmenu > ul > li > ul > li > ul{display: none; background:#ebebeb; padding: 0;}
+.topmenu > ul > li > ul > li > ul > li > a{padding:13px 30px;}
+.menutitle {font-size: 14px; margin-top: 10px;}
+
+
+.fundedIn .graph .achieved .figure{font-size:22px;}
+.fundedIn .graph .achieved .figure h4{font-size: 16px;}
+.fundedIn .supporters {font-size: 18px;}
+.donateToInd {font-size: 14px;}
+.donaAmt span.amtw {font-size: 16px;}
+.proDonateForm .infoMess {padding: 10px 30px; font-size: 16px;}
+.proDonateForm .amount input[type="text"], .proDonateForm .submit input[type="submit"]{height: 46px;}
+
+
+
+
+
+    .ethicalFundraising .fundraising {font-size: 12px; width: 100%; padding: 0; margin-bottom: 20px;}
+    .ethicalFundraising .fundraising .info .box {font-size: 10px;}
+    .ethicalFundraising .fundraising .info .box span.txt {min-height: 54px;}
+    .ethicalFundraising .fundraising .donate a {font-size: 12px; padding: 8px 20px;}
+    .ethicalFundraising .impact {width: 100%; border: 0; border-top: 1px solid #fff; border-bottom: 1px solid #fff; padding: 10px 0;}
+    .ethicalFundraising .impact .info .box {display: inline-block; width: calc(25% - 4px); vertical-align: middle;}
+    .signUp .subsHomeForm .field input[type="text"], .signUp .subsHomeForm .field input[type="email"], .signUp .subsHomeForm .submit input[type="submit"] {height: 28px; border-radius: 2px; font-size: 12px;}
+    .signUp .subsHomeForm {margin-bottom: 20px; display: block;}
+    .signUp .subsHomeForm .field {width: 160px;}
+    .signUp .subsHomeForm .submit {width: 86px;}
+    .blogAmbasdorWrap .hBlogArt {width: 100%; margin-bottom: 20px;}
+    .blogAmbasdorWrap .ambasdorShip {position: static; width: 100%;}
+    .blogAmbasdorWrap .pic, .blogAmbasdorWrap .txt {width: calc(50% - 4px); vertical-align: top;}
+    .blogAmbasdorWrap .txt h4 {font-size: 22px;}
+    .blogAmbasdorWrap .txt {font-size: 12px;}
+    .blogAmbasdorWrap .txt a {padding: 8px 20px; border-radius: 2px;}
+    .blogCat ul li a {font-size: 12px; padding: 8px 20px;}
+    .projectHead h1 {font-size: 20px;}
+    
+    .projectDetailsW .tabs ul li span.sm {font-size: 12px;}
+    .projectDetailsW .tabs ul li span.big {font-size: 14px;}
+
+    .fundedIn .graph .achieved .figure h4 {/*font-size: 12px; margin-bottom: 4px;*/}
+    .fundedIn .graph .achieved .figure .percent {/*font-size: 14px;*/}
+    
+    
+    /*.singleMonthly label {padding: 8px 0;}*/
+    
+ /*   .proDonateForm .infoMess {font-size: 10px; line-height: 14px; padding: 4px 6px;}
+    .proDonateForm .amount, .proDonateForm .infoMess, .donaAmt {margin-bottom: 8px;}
+    .donorSignupFormW span, .donorSignupFormW .tabbing .tabs ul li {font-size: 11px;} 
+    .field input[type="text"], .field input[type="email"], .field input[type="password"], .field input[type="number"], .field select, .field textarea, #commentForm input[type="text"], #commentForm input[type="email"], #commentForm input[type="password"], #commentForm select, .proDonateForm .country select, .proDonateForm .amount input[type="text"], .loginW .email input[type=text], .loginW .password input[type=password] {height: 24px;}*/
+    
+    .loginW .email input[type=text], .loginW .password input[type=password] {padding-left:38px; background-size: 20px auto;}
+    
+    .donationDetailsW .row span.head {font-size: 12px;}
+    #commentForm .email, #commentForm .password, #commentForm .name, #commentForm .field {margin-bottom: 8px;}
+
+    
+    .kh .aboutIntro span.sub, .aboutIntro span.sub {font-size: 20px;}
+    .kh .aboutIntro .head h2 {font-size: 14px;}
+    .aboutHowWeWork .notifier ul li {padding: 0 10px; line-height: 26px;}
+    .aboutHowWeWork .notifier .notifierContent .box p {font-size: 12px;}
+    .aboutHowWeWork .notifier ul li.active {font-size: 12px;}
+    .aboutHowWeWork .notifier .notifierContent .box .icon img {height: 50px;}
+    .aboutTeam a {font-size: 12px; padding: 8px 20px;}
+    .aboutTeam .container, .aboutTeam .head, .aboutTeam .pic {display: block; text-align: center; width: 100%;}
+    .aboutTeam .head {margin-bottom: 12px;}
+    .team .boxes .box {width: calc(25% - 4px - 2vw);}
+    .team .boxes .box .pic {margin-bottom: 4px;}
+    .team .boxes .box .name {font-size: 13px;}
+    .team .boxes .box .desig {font-size: 10px;}
+    .listNgos ul li {font-size: 14px; width: 50%;}
+    .listNgos ul li .readMore a {font-size: 12px; padding: 8px 20px;}
+    .contact .address {font-size: 12px;}
+    .contact .address .info span {padding: 8px 0; padding-left: 32px; background-position: left center;}
+    .faqWrap h4::before {line-height: 29px;}
+    .btn {font-size: 12px; padding: 8px 20px;}
+    .whyNgoRegIndDon .infoBoxes .box {width: calc(50% - 4px - 20px); margin: 0 10px 20px; padding: 10px;}
+    .whyNgoRegIndDon .infoBoxes .box .icon {margin-bottom: 8px;}
+    .whyNgoRegIndDon .infoBoxes .box .icon img {height: 64px;}
+    .whyNgoRegIndDon .infoBoxes .box .txt {font-size: 12px;line-height: 16px; min-height: 50px;}
+    .field .chosen-container-multi .chosen-choices, .field .chosen-container-active .chosen-choices {height: 24px; font-size: 10px;}
+
+    .eventsW .event {width: calc(50% - 4px - 20px); margin: 0 10px 20px;}
+    .eventsW .event h4 {font-size: 16px; margin-bottom: 12px;}
+    .eventsW .event .info .time, .eventsW .event .info .venue {font-size: 12px;}
+    .eventsW .event .info .venue {margin-bottom: 8px;}
+    .eventsW .event .info .desc {font-size: 12px; line-height: 16px;}
+    .eventsW .event .minh {min-height: 146px;}
+    .eventDetail h2 span {font-size: 12px;}
+    .eventDetail .right h4 {font-size: 16px;}
+    .sociallnk ul li a img {width: 28px; height: 28px;}
+    .eventDetail .left h3 {margin-bottom: 12px;}
+    .eventDetail .right {padding: 20px 0px;}
+    .venue .venueMap iframe {height: 300px;}
+    .blogSec .blogs .blog, .blogSec .blogs .blog:nth-child(3n+1), .knowledgeHub .blogs .blog {width: calc(50% - 4px - 20px); margin: 0 10px 20px;}
+    .blogs .blog .pic {margin-bottom: 0;}
+    .blogs .blog .info {padding: 0 10px 10px;}
+    .blogs .blog h4 {font-size: 14px;}
+    .blogs .blog .desc {font-size: 12px; line-height: 16px;}
+    .blogs .blog .minh {min-height: 124px;}
+    .blogs .blog .pubat {font-size: 11px; padding-left: 24px; background-size: 18px auto; width: 92px;}
+    .pubinfo .author {width: calc(100% - 92px - 8px);}
+    .pubinfo .author .pic, .blogLeft .author .pic {width: calc(32px - 4px);}
+    .pubinfo .author .txt {width: calc(100% - 32px - 4px); font-size: 11px;}
+    .blogLeft .author .txt {width: calc(100% - 32px - 4px - 12px); font-size: 11px; margin-left: 12px;}
+    .sec .blogLeft h2 .subline {font-size: 12px;}
+    .sociallnk {width: 128px;}
+    .socialMedia .sociallnk {width: 100%;}
+    .eventDetail .sociallnk ul{text-align: center;}
+    .blogLeft .author {width: calc(100% - 128px - 8px);}
+    .blogRight ul li a {padding: 8px 0;}
+    #commentForm .name .prefix {width: 54px;}
+    #commentForm .name .fname {width: calc((100% - 54px)/2 - 20px - 4px); margin-left: 20px;}
+    #commentForm .submit input[type="submit"] {font-size: 12px; padding: 8px 20px;}
+    .weOffer .infoBoxes .box .txt {min-height:inherit;font-size: 13px;line-height: 1;}
+    .donateNow .left h2, .donateNow .left h3 {padding: 12px 20px;}
+
+    .mediaWrap .media .info .published {font-size: 11px;}
+    .mediaWrap .media .info h4 {font-size: 16px;}
+    .mediaWrap .media .info h4 {font-size: 14px;}
+    .midWrap ul {padding-left: 20px;}
+
+    .iBanner .caption .ngoName h2 {font-size: 14px;}
+    .iBanner .caption .ngoName {width: 100%;}
+    .legalCertDetails .boxes .box .icon img {width: 36px;}
+    .legalCertDetails {font-size: 11px;}
+    .ngoReports .box {font-size: 12px;}
+    .ngoReports .box .link a {padding: 8px 20px;}
+    .proWorkSlider ul li .txt h4 {margin-bottom: 12px;}
+    .proWorkSlider ul li .txt {font-size: 11px;}
+    .backLnk a {font-size: 11px;}
+    .loginW .whlogo img {width: auto; height:80px;}
+    .loginW .container {width:340px; padding: 25px;}
+
+    .donorSignupFormW {width:100%; max-width: 360px;}
+    .donorSignup .field input[type=text], .donorSignup .field input[type=email], .donorSignup .field input[type=password], .donorSignup .field select, .donorSignup .field textarea {height:38px; font-size: 13px; padding:6px 10px;}
+    .nameW .prefix {width: calc(62px - 4px);}
+    .nameW .name {width: calc((100% - 62px)/2 - 4px);}
+    .donorSignupFormW.su .tabs ul li {line-height: normal; padding:8px 5px; min-height: 50px;}
+    .donorSignupFormW.su .tabbingWrap .tabContent .tContent {padding: 10px 20px;}
+    .donorSignup .forgotPassLnk {font-size: 11px;}
+
+    .blogs .blog .info .casus {font-size: 10px; margin-bottom: 8px;}
+
+    .cateInfo, .khSec {margin-bottom: 20px;}
+    .cateInfo {width: 100%; max-width: 500px;}
+    .khSbcat ul li a i {width: 32px; height: 32px;}
+
+    .pagination ul li a {font-size: 12px; line-height: 24px; width: 32px;}
+    .resultWrap .reportTable .row .col {padding: 4px;}
+
+    .storyWrap {width: 220px;}
+    .storyWrap .box .icon {width: 30px; height: 22px;}
+    .storyWrap .box .txt {width: calc(100% - 30px - 8px - 4px); margin-left: 4px;}
+    .storyBanner .storyCaption {left: 4%; bottom: 4%; padding: 12px 10px 12px 36px; font-size: 12px; background-size: 20px auto;}
+    .storyInfo {font-size: 12px;}
+    .galleryPics .bx-wrapper .bx-controls-direction a {width: 32px; height: 32px;}
+    .loginW .loginForm .field input, .submit input[type="submit"]{height: 44px; border-radius:4px;}
+    .loginW h3 {margin-bottom: 10px; font-size: 28px;}
+
+    .logoslider.owl-carousel .owl-item .logos{line-height:100px;}
+.logoslider.owl-carousel .owl-item .logos img{ display: inline-block;vertical-align: middle; line-height: 100px; }
+
+.courselist{display: block;}
+.DCauseList{display: none;}
+}
+@media only screen and (max-width: 767px) {
+.headertop{ border-bottom:1px solid #f1f1f1; }
+.proVideos .video {width: calc(50% - 2% - 4px);  height: 150px;}
+/*.homebanner.owl-carousel .owl-item img { display: block;   width: auto; height: 300px;  max-width: inherit;}*/
+.bleft{width: 100%; height: 100%; padding:50px 20px 30px; text-align: center;  
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffffff+0,ffffff+100&1+42,0+100 */
+background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 42%, rgba(255,255,255,0) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(255,255,255,1) 42%,rgba(255,255,255,0) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(255,255,255,1) 42%,rgba(255,255,255,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=0 ); /* IE6-9 */
+/*
+background: rgba(240,255,236,0);
+background: -moz-linear-gradient(top, rgba(240,255,236,0) 0%, rgba(240,255,236,1) 56%, rgba(240,255,236,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(240,255,236,0)), color-stop(56%, rgba(240,255,236,1)), color-stop(100%, rgba(240,255,236,1)));
+background: -webkit-linear-gradient(top, rgba(240,255,236,0) 0%, rgba(240,255,236,1) 56%, rgba(240,255,236,1) 100%);
+background: -o-linear-gradient(top, rgba(240,255,236,0) 0%, rgba(240,255,236,1) 56%, rgba(240,255,236,1) 100%);
+background: -ms-linear-gradient(top, rgba(240,255,236,0) 0%, rgba(240,255,236,1) 56%, rgba(240,255,236,1) 100%);
+background: linear-gradient(to bottom, rgba(240,255,236,0) 0%, rgba(240,255,236,1) 56%, rgba(240,255,236,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0ffec', endColorstr='#f0ffec', GradientType=0 );
+*/
+}
+.btitle{color:#3c7800;}
+.bcontent .btns{font-size: 16px; padding:8px 25px;}
+.slide{width:100%;top:0; left: 0;transform: inherit; height: 62%;}
+
+.courselist, .footer1 {padding: 30px 0;}
+.hCauses .owl-item { padding: 5px;}
+.hCauses .box .donate a{padding:8px 25px; font-size: 16px;}
+.linkBtn a { font-size: 16px; padding: 10px 25px;}
+.suportcauses {padding-bottom: 30px;padding-top: 0px;}
+.heading1{margin-bottom: 15px;}
+
+.leftsec{width: 100%; text-align: center;}
+.boxs4{width: 100%;}
+.sicon{width: 36px;}
+.contents {width: calc(100% - 50px); font-size: 14px; margin-bottom: 10px;}
+.boxs4 ul li a::before {top: 44px; left: 18px;}
+.boxs4 ul li a::after {top: 78px;left: 13px; background:#fff;}
+.title {font-size: 16px;line-height: 1;}
+.icons4 ul li, .icons4 ul li:last-child {width: 50%; border-left: 0;}
+.icons4 ul li:first-child, .icons4 ul li:nth-child(3), .icons4 ul li:nth-child(5){border-right:1px solid #fff;}
+.icons4 ul li:nth-child(1), .icons4 ul li:nth-child(2), .icons4 ul li:nth-child(3), .icons4 ul li:nth-child(4){border-bottom:1px solid #fff;}
+.icons4 ul li:last-child {margin-top:0px;}
+
+.iocnsec {width: 100%; min-height: 124px; padding: 15px 0; }
+.icons4 .donatesec{margin-top:40px;}
+.impactsec ul li{width: 50%; float: left; padding: 15px;}
+.wbox{width: 100%;}
+.whatspic{width: 100%; margin-top: 20px;}
+.btitle, .heading1, .whatsnew h3, .idiabox h3 {font-size: 24px;}
+.whatsnew p, .idiabox p { margin-bottom: 20px;}
+
+.logoslider{max-height: 120px; overflow: hidden;}
+.subscribe h4 { width: 100%; padding-right: 0;  font-size: 24px; text-align: center;}
+.subscribe .letterform { display: block; width: 300px;  margin: 0 auto;}
+.subscribe .field, .subscribe .submit{width: 100%;margin-top: 10px;}
+
+.socialMedia {width: 100%;  text-align: center;}
+.socialMedia h5{position: relative; text-transform: inherit;}
+.socialMedia h5:after{content:""; width:60px; position: absolute;left: 50%; bottom: 0; margin-left: -30px; height: 3px; background:#a0cf71;}
+.socialMedia ul li{display: inline-block; font-size: 18px; padding: 0 10px;}
+.socialMedia ul li span{display: none;}
+.fbox{width: 100%; padding: 0; margin-top:5px;}
+footer h5{font-size:16px; padding: 10px 0;}
+.togglelist{position: relative;transition: all ease-in-out .3s;}
+.togglelist:after{content:""; width: 10px; height: 10px; border-right:2px solid #fff; border-bottom:2px solid #fff; transform: rotate(45deg); position: absolute;right:15px;transition: all ease-in-out .3s;}
+.togglelist.active:after{ transform: rotate(-45deg); }
+.fbox ul{display: none; margin: 0px 0px 10px;}
+
+
+
+
+
+
+ 
+    .indiaDonates .infoBoxes .box {width: 100%; margin: 0 0 20px; padding: 10px;}
+    .indiaDonates .infoBoxes .box .head, .indiaDonates .infoBoxes .box .txt {height: auto;}
+    .ethicalFundraising .fundraising .info .box, .ethicalFundraising .fundraising .info .box:nth-child(1) {width: calc(50% - 4px - 20px); margin: 0 10px 20px;}
+    .ethicalFundraising .fundraising .info {text-align: center;}
+    .ethicalFundraising .impact .info .box span.txt {font-size: 9px;}
+    .hBlogArt .row:nth-child(1) .pic, .hBlogArt .row:nth-child(1) .txt, .hBlogArt .row:nth-child(2) .pic, .hBlogArt .row:nth-child(2) .txt, .blogAmbasdorWrap .pic, .blogAmbasdorWrap .txt {width: 100%; position: static;}
+    .blogAmbasdorWrap .txt {padding: 20px;}
+    .txtPicR .left, .txtPicR .right {width: 100%; float: none; margin-bottom: 12px;}
+    .weOffer .infoBoxes .box {width: 100%; margin: 0 0 12px; padding: 10px;font-size: 13px;}
+    .weOffer .infoBoxes .box .txt {min-height: auto; padding-bottom: 12px;}
+    .csrForm .left, .csrForm .right, .aboutIntro .head {width: 100%;}
+    .colF .col, .col2 .col  {width: 100%; margin: 0 0 12px;}
+    .weOffer.whyCsr .infoBoxes .box {width: 100%; margin: 0 0 20px;}
+    .kh .aboutIntro .head, .ourTeamIntro h2 {width: 100%;}
+    .kh .aboutIntro .info, .aboutIntro .info, .ourTeamIntro .txt {width: 100%; margin: 0;}
+    .aboutHowWeWork .notifierWrap {width: 100%;}
+    .aboutTeam .pic img {max-width: 100%;}
+    .aboutVisMis ul li {width: 100%; margin: 0 0 20px;}
+    .team .boxes .box {width: calc(50% - 4px - 20px); margin: 0 10px 20px;}
+    .listNgos ul li {width: 100%; padding: 20px; 0;}
+    .listNgos ul li {max-height: none;}
+    .listNgos ul li .infoWrap {min-height: auto;}
+    .contact .address {margin-bottom: 20px;}
+    .contact .address, .contact .cForm {width: 100%;}
+    .faqCat ul li {font-size: 12px; padding: 8px 20px;}
+
+    .whyNgoRegIndDon .infoBoxes .box {width: 100%; margin: 0 0 20px; }
+    .whyNgoRegIndDon .infoBoxes .box .txt {min-height: auto;}
+    .eventDetail .left, .eventDetail .right {display: block; width: 100%;}
+    .blogSec .blogs .blog, .blogSec .blogs .blog:nth-child(3n+1) {width: 100%; margin: 0 0 20px;}
+    .blogs .blog .minh {min-height: auto;}
+    .blogLeft {width: 100%; margin-bottom: 20px;}
+    .blogRight {width: 100%;}
+    .weOffer.voluntee .infoBoxes .box {width: 100%; margin: 0 0 20px;}
+    .donateNow .left, .donateNow .right {width: 100%;}
+    .blogCat ul li a {padding: 8px 6px;}
+    .mediaWrap .media {margin-bottom: 20px;}
+
+    .vismis .vission, .vismis .mission {width: 100%; margin: 0;}
+    .vismis .vission {margin-bottom: 20px;}
+    .vismis .vission .icon img, .vismis .mission .icon img {width: 60px;}
+    .legalwrap, .certwrap {width: 100%; }
+    .legalwrap {margin-bottom: 20px;}
+    .ngoContact .detailWrap .address, .ngoContact .detailWrap .other {width: 100%;}
+    .ngoContact .detailWrap .address {margin-bottom: 20px;}
+    .ngoContact .detailWrap .address .icon, .ngoContact .detailWrap .other .icon {width: 40px;}
+    .ngoContact .detailWrap .address .txt, .ngoContact .detailWrap .other .txt {width: calc(100% - 40px - 12px - 4px); margin-left: 12px;}
+    .ngoContact .detailWrap .other .icon {text-align: right;}
+    .ngoContact .detailWrap .other .icon img {width: auto; height: 20px;}
+    .ngoReports .box {width: 100%; margin: 0 0 20px;}
+    .projectHead h1 {font-size: 14px;}
+    .projectDetailsW .left {width: 100%; margin-bottom: 12px;}
+    .projectDetailsW .right {width: 100%;}
+    .fundedIn .graph img, .fundedIn .graph canvas {/*width: 160px!important; height: 160px!important;*/}
+    .fundedIn .graph .achieved {width: 108px; height: 108px;}
+    .fundedIn .graph .achieved .figure .donation {/*font-size: 10px;*/}
+   
+    
+    .aboutTheNgo .docDetail {width: 100%; margin: 0; padding: 20px;}
+    .aboutTheNgo .docDetail ul li .icon {width: calc(32px - 4px);}
+    .aboutTheNgo .docDetail ul li .txt {width: calc(100% - 32px - 4px - 20px); margin-left: 20px; font-size: 12px;}
+    .aboutTheNgo .docDetail ul li  {margin-top: 12px;}
+    .aboutTheNgo .docDetail ul li:nth-child(1)  {margin-top: 0;}
+    .contactDetail .detailWrap .address {width: 100%; margin-bottom: 12px;}
+    .contactDetail .detailWrap .address .icon, .contactDetail .detailWrap .other .icon {/*width: calc(40px - 4px); text-align: right;*/}
+    .contactDetail .detailWrap .other {width: 100%;}
+    .contactDetail .detailWrap .address .txt, .contactDetail .detailWrap .other .txt {width: calc(100% - 40px - 12px - 4px); margin-left: 12px;}
+    .contactDetail .detailWrap .other .icon img {height: 20px; width: auto;}
+
+    .knowledgeHub .blogs .blog, .knowledgeHub .blogs .blog:nth-child(3n+1) {width: 100%; margin: 0 0 20px;}
+    .khSec .khSbcat ul  li a {padding: 4px; height: 72px;}
+
+    .userNav {width: 100%; margin-bottom: 12px; border-radius: 4px; min-height: auto; padding: 12px;}
+    .userNav ul {display: table; width: 100%; margin-bottom: 0;}
+    .userNav ul li {display: table-cell; text-align: center; border-left: 1px solid #454545;}
+    .userNav ul li a {border: 0;}
+    .userNav ul li:first-child {border-left: 0;}
+    .userRightSec {width: 100%;}
+    .col3 .col {width: 100%; margin: 0 0 12px;}
+
+    .eventsW .event {width: 100%; margin: 0 0 20px;}
+    .storyBanner .storyCaption, .storyWrap {position: static; width: 100%;}
+    .storyBanner .storyCaption {background: rgba(0,0,0,1) url(../images/StoryGalleryIcon.png) 4px center no-repeat;  background-size: 20px auto;}
+    .storyWrap {height: auto; max-height: 200px}
+    .storyWrap .box a {padding: 8px;}
+    .eventsW .event .minh {min-height: auto;}
+    .eventsW .event .info {padding: 8px;}
+    .storyWrap .box {}
+    .galleryPics .pic {margin-bottom: 12px;}
+    .galleryVideos .video {height: 250px;}
+    .field label{font-size: 13px;}
+    .field input[type=text], .field input[type=email], .field input[type=password], .field input[type=number], .field textarea{
+        height: 36px;
+    }
+    .field.name .first, .field.name .last{
+        margin-left: 10px;
+    }
+    .field {
+        margin-bottom: 2.5vw;
+    }
+    .ngoRegForm .form{
+        width: 100%;
+    }
+    .field select{
+        height: 10vw;
+    }
+    p.sm, ul.sm {
+        font-size: 13px;
+        line-height: 1;
+    }
+    .proDonateForm .country select{
+        height: 10vw;
+    }
+    .slist ul{
+        flex-wrap: wrap;
+    }
+    .slist ul li{
+        flex-basis: 100%;
+        margin-bottom: 10px;
+    }
+    .slist ul li:nth-child(2){
+        flex-direction: column;
+    }
+    .slist ul li:last-child{
+        display: none;
+    }
+    .slist ul li .sec-para{
+        height: auto;
+    }
+    .toplinks {
+        margin: 10px 30px 0px 0px;
+    }
+    .navicon{
+        top:10px;
+    }
+    .campimg video {
+        height: auto;
+    }
+}
+@media only screen and (max-width: 579px) {
+.proVideos .video {width: calc(50% - 2% - 4px);  height: 120px;}
+    header nav .links .mainLnks ul li {display: block; text-align: left; border-top: 1px solid #f9f9f9;}
+    header nav .links .mainLnks ul li a {display: block; line-height: 32px;}
+    header nav .links .mainLnks {padding: 0;}
+    header nav .search form {width: 100%;}
+    .donateNow {background-position: inherit;}
+    .donateToInd p {color: #fff; font-weight: 500;     text-shadow: 2px 2px 3px #222;}
+    /*.singleMonthly label {color: #fff;}*/
+    .singleMonthly input[type=radio]:checked + label { color: #222; }
+    .flex_box {flex-wrap: wrap;}
+    .wbox_flex {order: 2;}
+    .whatspic_flex {flex-basis: 100%}
+    .whatspic_flex img {display: block;}
+    .wbox_flex_inner {margin: 0; flex-basis:100%;}
+    .wbox_flex{flex-basis:100%;}
+    .wbox_flex_inner .heading2 {font-size: 24px; margin-bottom: 10px;}
+    .show_xs{display: block;}
+    .show_xs.togglelist:after {display: none;}
+    .donateToInd {     background: rgba(0,0,0,.7); }
+}
+@media only screen and (max-width: 479px) {
+    .loginW .container {width:320px; padding: 20px;}
+    .proVideos .video {width: calc(50% - 2% - 4px);  height: 100px;}
+    header .logo {
+    max-width: 85px;
+    padding: 0px;
+}
+}

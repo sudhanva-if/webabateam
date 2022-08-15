@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iofrm</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/fontawesome-all.min.css">
+    <link rel="stylesheet" type="text/css" href="css/iofrm-style.css">
+    <link rel="stylesheet" type="text/css" href="css/iofrm-theme15.css">
+    <link href="css2/style.css?v1" rel="stylesheet"> 
+<link href="css2/owl-carousel.css" rel="stylesheet">
+<link href="css2/jquery.bxslider.css" rel="stylesheet">
+<link href="css2/jquery.mCustomScrollbar.css" rel="stylesheet">
+<link href="css2/chosen.min.css" rel="stylesheet">
+<link href="css2/jquery-ui.min.css" rel="stylesheet">
+    <script src="js2/jquery-3.3.1.min.js"></script>
+
+<script src="js2/owl.carousel.js"></script>
+<script src="js2/jquery.bxslider.js"></script>
+<script src="js2/jquery.mCustomScrollbar.js"></script>
+<script src="js2/chosen.jquery.min.js"></script>
+<link rel="stylesheet" href="gh/fancyapps/fancybox%403.5.7/dist/jquery.fancybox.min.css">
+<script src="gh/fancyapps/fancybox%403.5.7/dist/jquery.fancybox.min.js"></script>
+<script src="js2/custom.js?v1"></script>
+    
+</head>
+<body>
+    <div class="form-body" class="container-fluid">
+        <div class="website-logo">
+            <a href="index.html">
+                <div class="logo">
+                    <img class="logo-size" src="images1/ngologo.png" alt="">
+                </div>
+            </a>
+        </div>
+        <div class="row">
+            <div class="img-holder">
+                <div class="bg"></div>
+                <div class="info-holder">
+                    <h3>Get more things done with Loggin platform.</h3>
+                    <p>Access to the most powerfull tool in the entire design and web industry.<br><br>
+                        Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.</p>
+                </div>
+            </div>
+        <div class="fullwidth heighthead"></div>    <section class="sec donateNow">
+            <div class="container">
+                <div class="right">
+                    <div class="donateToInd">
+                
+    
+        <form name="generalDonation" id="generalDonation" action="/process-donate.php" method="post" enctype="multipart/form-data">
+            <div class="gDonationForm active">
+                <div class="formMess"></div>
+                <div class="singleMonthly">
+                    <input type="radio" name="SingleMonthly" id="Single" value="Single" checked="">
+                    <label for="Single">Single</label>
+                    <input type="radio" name="SingleMonthly" id="Monthly" value="Monthly">
+                    <label for="Monthly">Monthly</label>
+                </div>
+                <div class="proDonateForm">
+                    <div class="country">
+                        <input type="hidden" name="CauseId" value="0">
+                    <!--<select name="CauseId" id="CauseId">
+                        <option value="0">IndiaDonates</option>
+                                                    </select>-->
+                </div>
+                <div class="otherCause amount hide">
+                    <input type="text" name="OtherCause" placeholder="Enter Other Cause">
+                </div>
+                <div class="country">
+                    <select name="Nationality" id="Nationality">
+                        <option value="Indian">Indian Citizen</option>
+                    </select>
+                </div>
+                <!-- <div class="tbl donaAmt">
+                    <span class="amtw">₹ <span class="amt">1000</span></span>
+                    <span class="amtw">₹ <span class="amt">2000</span></span>
+                    <span class="amtw">₹ <span class="amt">5000</span></span>
+                    <span class="amtw">₹ <span class="amt">Other</span></span>
+                </div> -->
+                <div class="tbl donaAmt">
+                    <span class="amtw">₹ <span class="amt">1,000</span></span>
+                    <span class="amtw">₹ <span class="amt">2,000</span></span>
+                    <span class="amtw">₹ <span class="amt">5,000</span></span>
+                    <span class="amtw">₹ <span class="amt">Other</span></span>
+                </div>
+                <input type="hidden" value="" id="donateAmt">
+                <!--<div class="infoMess">Select an amount.</div>-->
+                <div class="amount">
+                    <input type="text" name="Donation" id="Donation" value="" placeholder="Amount in INR">
+                </div>
+                <div class="submit">
+                    <input type="submit" value="Submit">
+                </div>
+            </div>
+        </div>
+        <div class="donorSignupFormW hide">
+            <h3>Donor Signup<span>Join hands and make a difference</span></h3>
+            <div class="tabbing">
+                <div class="tabs">
+                    <ul>
+                        <li class="active">Details</li>
+                        <li>Already Registered, Login here</li>
+                    </ul>
+                </div>
+                <div class="tabContent">
+                    <div class="tContent active">
+                        <div class="formMess"></div>
+                        <div class="field nameW">
+                            <div class="prefix">
+                                <select name="Prefix" id="Prefix">
+                                    <option value="Mr.">Mr.</option>
+                                    <option value="Ms.">Ms.</option>
+                                    <option value="Mrs.">Mrs.</option>
+                                    <option value="Dr.">Dr.</option>
+                                    <option value="Mx.">Mx.</option>
+                                </select>
+                            </div>
+                            <div class="name">
+                                <input type="text" name="FirstName" id="FirstName" placeholder="First Name" value="">
+                            </div>
+                            <div class="name">
+                                <input type="text" name="LastName" id="LastName" placeholder="Last Name" value="">
+                            </div>
+                        </div>
+                        <div class="field">
+                            <input type="text" name="EmailId" id="EmailId" placeholder="Email" value="">
+                        </div>
+                        <div class="field">
+                            <input type="text" name="Mobile" id="Mobile" placeholder="Mobile" value="">
+                        </div>
+                        <div class="passdetails hide">
+                            <div class="field">
+                                <input type="text" name="Address" id="Address" value="" placeholder="Address">
+                            </div>
+                                <!--<div class="field pass">
+                                    <input type="file" name="PassportFile" id="PassportFile" value="" placeholder="Passport" />
+                                    <span class="info">Upload scan copy of passport(JPG or PDF).</span>
+                                </div>-->
+                            </div>
+                            <div class="receipt80g">
+                                <input type="checkbox" value="Yes" name="Receipt80g" id="Receipt80g">
+                                <label for="Receipt80g">Do you want 80G receipt?</label>
+                            </div>
+                            <div class="panno hide">
+                                <div class="field">
+                                    <input type="text" name="PanNo" id="PanNo" value="" placeholder="Enter PAN Number">
+                                </div>
+                            </div>
+                            <div class="submit">
+                                <input type="submit" value="Proceed" class="btn">
+                            </div>
+                        </div>
+
+                    </div></div></div></form>
+                    
+                </div>
+            </div>
+    </div>
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/popper.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+<script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '150225983777320');
+    fbq('track', 'PageView');
+  </script>
+  <noscript><img height="1" width="1" style="display:none" src="tr?id=150225983777320&ev=PageView&noscript=1"></noscript>
+  <!-- End Facebook Pixel Code -->
+  
+  
+  <noscript>
+   <img height="1" width="1" src="tr-1?id=2149358885195830&ev=PageView
+  &noscript=1">
+  </noscript>
+  
+</body>
+</html>
